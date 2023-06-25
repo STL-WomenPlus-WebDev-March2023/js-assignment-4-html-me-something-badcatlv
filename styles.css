@@ -9,6 +9,8 @@ body {
 html {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size:larger;
+    scroll-behavior: smooth;
+    text-align: center;
 }
 
 #mainHeading {
@@ -20,9 +22,39 @@ html {
 }
 
 .footer{
-    background-color:cornflowerblue;
+    background-color:cadetblue;
 }
 
 .title {
-    background-color: chartreuse;
+    background-color:burlywood;
+    margin: 10px;
+    padding: 10px;
+    border: 5px;
+    border-color: cadetblue;
+}
+
+nav, ul {
+    color: red;
+    text-align: center;
+    list-style: none;
+}
+
+article {
+    background-color: bisque;
+    padding: 10px;
+    margin: 10px;
+}
+
+main {
+    padding: 10px;
+    margin: 10px;
+    border: 10px solid;
+    border-color: cadetblue;
+}
+
+div {
+    padding:10px;
+    margin: 10px;
+    border: 5px solid;
+    border-color: cadetblue;
 }
